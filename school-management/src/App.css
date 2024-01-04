@@ -1,0 +1,37 @@
+
+  .App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.Container {
+  display: flex;
+  justify-content: space-around;
+}
+.Box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  width: 40%;
+}
+
+.SchoolManagementContainer {
+  width: 80%;
+}
+
+.LoginContainer {
+  width: 80%;
+}
+.TeacherLogin,
+.TeacherRegistration,
+.TeacherDashboard {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 40%;
+}
+
+.RegisterLink {
+  margin-top: 20px;
+}
